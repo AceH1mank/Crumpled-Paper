@@ -59,7 +59,7 @@ function draw() {
   background(0);
   ellipse(ball.position.x,ball.position.y,20);
 
-  
+  console.log(ball_options.friction);
 
   ground.show();
   bin_left.show();
