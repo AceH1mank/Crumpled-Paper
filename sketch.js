@@ -26,7 +26,7 @@ function setup() {
 
 	var ball_options={
 		restutution:0.3,
-	    friction:2
+	    friction:0
 		//density:1.2
 	}
 	ground = new Ground(width/2,350,width,10);
